@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Roisin Garvey - Local Elections Candidate
+email: roisingarveyhq@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Rosin Garvey, Local Elections Candidate, North Clare.
+# baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: roisingarvey
+
+# Build settings
+markdown: kramdown
