@@ -1,0 +1,32 @@
+<section id="news" class="mv3 pa0">
+    <div class="tc mv4 pa0">
+        <h2 class="f3 f1-ns">The Latest From Róisín</h2>
+        {% include hr.html %}
+    </div>
+    <div class="flex flex-column flex-row-ns">
+        <div class="w-two-thirds">
+            {% for post in site.posts %}
+            <article>
+                <a class="db pv4 ph3 ph0-l no-underline nearly-black dim" href="{{post.url}}">
+                    <div class="flex flex-column flex-row-ns">
+                        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                        <img src="{{site.baseurl}}/img/posts/st_patricks_day_group.png" class="db h7">
+                        </div>
+                        <div class="w-100 w-60-ns pl3-ns">
+                            <h1 class="f3 fw1 mt0 lh-title">{{post.title}}</h1>
+                            <p class="f6 f5-l lh-copy nearly-black">
+                                {{post.summary}}
+                            </p>
+                            <p class="f6 lh-copy nearly-blackmv0">{{ post.date | date: "%b %-d, %Y" }}</p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+
+        <div >
+            <a class="twitter-timeline" data-height="800" href="https://twitter.com/RoisinGarvey?ref_src=twsrc%5Etfw">Tweets by RoisinGarvey</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+</section>

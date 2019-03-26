@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
-<section>
-    <div class="container">
-        <header class="major">
-            <h2>{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+{% include nav_post.html %}
 
-        <section class="post-content">
-            {{ content }}
-        </section>
-        
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
+<article class="baskerville pv5">
+    <header class="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
+        <div class="center pb4">
+          <img
+              src="{{site.baseurl}}/img/avatar.jpg" class="br4 h5 w5 dib pa4" alt="avatar">
+      </div>
 
+    <h1 class="f3 f2-m f-subheadline-l measure lh-title fw1 mt0 green">{{page.title}}</h1>
+    <time class="f5 f4-l db fw1 baskerville mb4"> {{ page.date | date: "%B %-d %Y"}}</time>
+  </header>
+  <div class="ph3 ph4-m ph5-l">
+      <!-- {% if page.excerpt %}
+           <blockquote class="f4 mb4 center measure lh-copy pl3 i bl bw3 b--black-30">
+           {{page.excerpt}}
+           </blockquote>
+           {% endif %} -->
+    <div class="measure db center f5 f4-ns lh-copy">
+      {{content}}
     </div>
-
-</section>
+  </div>
+</article>

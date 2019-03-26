@@ -1,0 +1,11 @@
+<section id="about" class="vh-75 dt bg-green near-white w-100">
+    <div class="dtc v-mid center measure tc">
+        <h2 class="f2 f1-ns">Hi, I'm Róisín.</h2>
+        <div class="dn db-ns">
+            <iframe width="640" height="385" src="https://www.youtube.com/embed/7bgGJ6LUCmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="tl pa4 lh-copy center w-60-l">
+            {% capture my_include %}{% include bio.md %}{% endcapture %}{{ my_include | markdownify }}
+        </div>
+    </div>
+</section>

@@ -1,10 +1,6 @@
+I'm a candidate for the local elections in North Clare in 2019. I am running in North Clare because of its people: their resilience and can-do attitude. This hardworking philosophy inspired me to community activism and motivated me to co-found, among other things: Ennistymon Scouts, Mol an Óige Primary School and Fracking Free Clare. I have run numerous fundraising events, including for Ennistymon Hospital, Lahinch Playground and Inagh Camogie Club. I am no stranger to navigating bureaucracy for the benefit of my community. I sourced funding for Tidy Towns groups, Mens’ Sheds, and National Bike Week Events.
 
-Hello! is mise Róisín Ní Gháirbhith. I'm a candidate for the local elections in North Clare in 2019. I'm also a mother, educator, entrepreneur and travel officer with the Green Schools Programme and I'm from, and live, in Inagh.
-
-I am running in North Clare because of its people: their resilience and can-do attitude. This hardworking philosophy inspired me to community activism and motivated me to co-found, among other things: Ennistymon Scouts, Mol an Óige Primary School and Fracking Free Clare. I have run numerous fundraising events, including for Ennistymon Hospital, Lahinch Playground and Inagh Camogie Club. I am no stranger to navigating bureaucracy for the benefit of my community. I sourced funding for Tidy Towns groups, Mens’ Sheds, and National Bike Week Events.
-
-The people of North Clare need a strong voice in the county council. I have the
-passion, drive and determination to be that voice.
+Here's what I hope to do as a councillor:
 
 # Supporting Communities
 
@@ -36,9 +32,3 @@ demands
 * Work for a less bureaucratic approach to the cottage food industry in Clare
 * Help farmers develop sustainable solutions to meet the challenges of more
 regular extreme weather events.
-
-
-
-You can find out more [in my election flyer](/images/flyer.pdf), if you're not registered to vote, you can download the from [here](http://www.checktheregister.ie/appforms%5CRFA_English_Form.pdf) and if you're interested in supporting me please join my [go fund it campaign](https://www.gofundme.com/garveys-the-1-to-get-things-done).
-
-Go raibh maith agat!

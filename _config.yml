@@ -1,11 +1,41 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Roisin Garvey - Local Elections Candidate
-email: roisingarveyhq@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    Rosin Garvey, Local Elections Candidate, North Clare.
-# baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: roisingarvey
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Roisin Garvey - North Clare Local Elections Candidate
+nav-title: Roisin Garvey - North Clare Local Elections Candidate
+header-headline: Garvey's the 1 to get things done!
+header-subheadline: "Some text that I have actually added myself."
+email: feedback@tachyonstemplates.com
+telephone: 123-456-7899
+description: > # a simple web app launch site built using tachyons
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+social-icons:
+ - title: Facebook
+   url: https://facebook.com/example
+   class: facebook
+ - title: Twitter
+   url: https://twitter.com/blairanderson
+   class: twitter
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
